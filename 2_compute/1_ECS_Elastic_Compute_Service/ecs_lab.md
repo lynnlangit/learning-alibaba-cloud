@@ -1,4 +1,4 @@
-### GCE Commands
+### ECS Commands
 
 To list instances  
 `gcloud compute instances list`

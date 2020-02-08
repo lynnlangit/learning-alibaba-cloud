@@ -1,4 +1,4 @@
-### GKE Commands
+### Container Service Commands
 
 To create a cluster  
 `gcloud container clusters create [cluster_name] --machine-type= g1-small --num-nodes=1 --zone us-west2-a`  

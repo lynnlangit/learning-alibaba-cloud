@@ -1,4 +1,4 @@
-### GCF commands
+### Cloud Function commands
 
 To list functions  
 `gcloud functions list`  

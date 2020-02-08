@@ -1,4 +1,4 @@
-### GCS Commands
+### OSS Commands
 
 To list buckets  
 `gsutil ls`
