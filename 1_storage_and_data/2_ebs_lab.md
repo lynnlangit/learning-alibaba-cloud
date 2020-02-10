@@ -1,6 +1,6 @@
-### Filestore Commands
+### EBS Commands
 
-Use Cloud Filestore to create fully managed NFS file servers on Google Cloud Platform (GCP) for use with applications running on Compute Engine virtual machines (VMs) instances or Google Kubernetes Engine clusters.
+Use EBS to create fully managed NFS file servers on Alibaba Cloud for use with applications running on VM instances or Kubernetes clusters.
 
 To create an instance  
 `aliyun filestore instances create nfs-server --project=[PROJECT_ID] --zone=us-central1-c --tier=STANDARD \ `        `     --file-share=name="vol1",capacity=1TB --network=name="default",reserved-ip-range="10.0.0.0/29"`

@@ -4,8 +4,6 @@
 
 Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun or Ali Cloud)provided cloud services only in China. In 2020, Aliyun operates in 20+ data center regions around the world. 
 
-Companion Repo for LinkedIn Learning Course
-
 ### Key Links
 - Main (for US) - us.alibabacloud.com
 - GitHub - github.com/aliyun
