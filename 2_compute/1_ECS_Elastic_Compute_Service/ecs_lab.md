@@ -1,13 +1,13 @@
 ### ECS Commands
 
 To list instances  
-`gcloud compute instances list`
+`aliyun ecs ListInstances  --zone=[zone]`
 
 To create an instance  
-`gcloud compute instances create [instance_name] --zone=[zone]`  
+`aliyun ecs CreateInstance [instance_name] --zone=[zone]`  
 
 To desribe your instance  
-`gcloud compute instances describe [instance_name] --zone=[zone]`
+`aliyun ecs DescribeInstances --output cols=InstanceId,InstanceName`
 
 To SSH to an instance  
 `gcloud compute ssh [instance_name] --zone=[zone]`
@@ -26,9 +26,8 @@ To delete an instance
 
 About Images - https://cloud.google.com/solutions/image-management-best-practices
 
-To create an image from a persistent disk  
-`gcloud compute images create [IMAGE_NAME] --source-disk [SOURCE_DISK] \`
-` --source-disk-zone [ZONE] --family [IMAGE_FAMILY] [--force]`
+To create a snapshot from a persistent disk  
+`aliyun ecs CreateSnapshot --DiskId d-bp19pjyf12hebpXXXXXX`
 
 To create an image from a snapshot  
 `gcloud compute images create [IMAGE_NAME] --source-image [SOURCE_IMAGE] \
