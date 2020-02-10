@@ -11,3 +11,7 @@ Alibaba Cloud’s compute services
 Alibaba Cloud offers two types of pricing for it's compute services: 
 - Pay-as-you-go
 - Subscription
+
+### Links
+- Launch a Jupyter container instance via `launch in Dev Box` - [link](https://www.alibabacloud.com/help/doc-detail/52687.htm)
+- Comparing Alibaba Cloud Function Compute to AWS Lambda - [link](https://cloudonaut.io/comparing-serverless-offerings-from-alibaba-cloud-and-aws/)
