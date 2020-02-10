@@ -1,26 +1,26 @@
-### BigTable Commands
+### TableStore Commands
 
 https://cloud.google.com/bigtable/docs/quickstart-cbt
 
 To install CBT tool  
-`gcloud components update`  
-`gcloud components install cbt`
+`aliyun components update`  
+`aliyun components install cbt`
 
 To create & config .cbtrc file  
 pattern: `echo project = [PROJECT_ID] > ~/.cbtrc`  
 example: `echo instance = quickstart-instance >> ~/.cbtrc`
 
 To list BigTable clusters  
-`gcloud bigtable clusters list`  
+`aliyun bigtable clusters list`  
 
 To list BigTable instances  
-`gcloud bigtable instances list`  
+`aliyun bigtable instances list`  
 
 To create a BigTable cluster  
-`gcloud bigtable instances create [instance_id] --cluster=cluster-1 --display-name=[instance_name] --cluster-zone=us-west2-a --instance-type=DEVELOPMENT`  
+`aliyun bigtable instances create [instance_id] --cluster=cluster-1 --display-name=[instance_name] --cluster-zone=us-west2-a --instance-type=DEVELOPMENT`  
 
 To get information about your instance  
-`gcloud bigtable instances describe [instance_name]`
+`aliyun bigtable instances describe [instance_name]`
 
 NOTE: if `-creds flag unset` add `-instance... param`
 To create a table  

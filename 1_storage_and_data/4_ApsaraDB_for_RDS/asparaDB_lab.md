@@ -1,17 +1,17 @@
 ### Cloud SQL commands
 
 To create an instance  
-`gcloud sql instances create [instance_name] --tier=db-f1-micro --region=us-west2`    
+`aliyun sql instances create [instance_name] --tier=db-f1-micro --region=us-west2`    
 
 To create a database  
-`gcloud sql database create [db_name] --instance=[instance_name]` 
+`aliyun sql database create [db_name] --instance=[instance_name]` 
 
 To list the databases  
-`gcloud sql databases list [db_name]`  
+`aliyun sql databases list [db_name]`  
 
 To create a database table  
 1. Connect to instance  
-`gcloud sql connect [instance_name]`
+`aliyun sql connect [instance_name]`
 2. Use the database created  
 `use [db_name]` 
 3. Create the table  
@@ -33,7 +33,7 @@ To list value in a table row
 `SELECT * FROM contacts WHERE name='John';` 
 
 To delete a database  
-`gcloud sql databases delete test-db --instance=[instance_name]`
+`aliyun sql databases delete test-db --instance=[instance_name]`
 
 To delete an instance  
-`gcloud sql instances delete [instance_name]`
+`aliyun sql instances delete [instance_name]`

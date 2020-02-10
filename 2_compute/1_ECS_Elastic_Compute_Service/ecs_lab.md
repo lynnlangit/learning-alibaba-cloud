@@ -26,7 +26,6 @@ To exit
 To delete an instance  
 `aliyun ecs XXX instances delete [instance_name] --zone=[zone]`
 
-
 To create a snapshot from a persistent disk  
 `aliyun ecs CreateSnapshot --DiskId d-bp19pjyf12hebpXXXXXX`
 
