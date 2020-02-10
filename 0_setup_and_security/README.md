@@ -1,6 +1,6 @@
 ### Aliyun Account Setup and Security
 
-## Concepts
+## Security Concepts
 - RAM - Resource Access Management
 
 These identities work in slightly different ways than the other cloud service providers, though they have similar names:
@@ -9,16 +9,11 @@ These identities work in slightly different ways than the other cloud service pr
 - RAM-Role – a virtual identity that can be assigned to multiple real identities  
 - RAM-Policy - a set of one or more permissions in a document
     - attach TO one more user or role
-    
-## Other Info
 
-- Start with Aliyun-Setup.md  
-- Includes RAM sample scripts and RAM sample json policy  
-- If Enterprise, see Aliyun Enterprise setup steps  
+## Client Options
 
-## Client
-
-There are multiple clients
-- Use Alibaba Cloud API
-- Use scripts
+There are multiple clients:
+- Use code with the Alibaba Cloud API
+- Use scripts with the Aliaba Cloud cli  
+- Run scripts iwth the integrated Cloud Shell for the Alibaba Cloud cli
 - Extension for VSCode
