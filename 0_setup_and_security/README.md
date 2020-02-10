@@ -2,10 +2,11 @@
 
 # About Setup, Security and Billing
 
-This section has information about these three topics. See the included Markdown files for more detailed information.
+This section has information about these topics. See the included Markdown files for more detailed information.
 
 ## Security Concepts
-- RAM - Resource Access Management
+
+- **RAM** - Resource Access Management
 
 These identities work in slightly different ways than the other cloud service providers, though they have similar names:
 
@@ -18,7 +19,8 @@ These identities work in slightly different ways than the other cloud service pr
 ## Client Options
 
 There are multiple clients:
-- Use code with the Alibaba Cloud API
+- While learning, clikc on service configurations in Alibaba Cloud console
+- Use code with the Alibaba Cloud API -> Explorer at https://api.aliyun.com/
 - Use scripts with the Aliaba Cloud cli  
-- Run scripts iwth the integrated Cloud Shell for the Alibaba Cloud cli
+- Run scripts with the integrated Cloud Shell for the Alibaba Cloud cli
 - Extension for VSCode

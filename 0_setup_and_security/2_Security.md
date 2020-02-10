@@ -11,30 +11,6 @@ These identities work in slightly different ways than the other cloud service pr
 - RAM-Policy - a set of one or more permissions in a document
     - attach TO one more user or role
 
-## General Aliyun Account Setup
-
-The following are general setup steps:
-- Create a new gmail account for testing
-- Sign in to Chrome with this account
-- Create a new Aliyun account using a gmail address
-- Login to the Aliyun console with your gmail address
-- Create a billing account (required credit card)
-- Use 'new account' $450 credit (for Individual Free Trial)
-- Create a new Aliyun Project
-- Set up a billing alert for that project with a notification via pub/sub
-- (Optional) Create a non-owner IAM admin user to reduce the attack surface
-
-## Code & Code Editor
-
-You can use the editor and language of your choice.  I am using VSCode and Python on a MacOS.
-- Verify Python - I am using Python 2.7
-- Install VSCode - do not need to install Git
-    - install these extentions for VSCode: 
-        - Alibaba Cloud Management Extension
-        - TensorFlowSnippets
-        - Python (or Node...)
-        - VS Code Jupyter Notebook viewer
-
 ## Aliyun SDK 
  
  You can use the included console in Aliyun to run GCP SDK (gcloud) commands or you can download and install the Aliyun SDK locally

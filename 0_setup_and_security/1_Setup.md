@@ -7,11 +7,10 @@ The following are general setup steps:
 - Sign in to Chrome with this account
 - Create a new Aliyun account using a gmail address
 - Login to the Aliyun console with your gmail address
-- Create a billing account (required credit card)
+- Create a billing account (requires credit card)
 - Use 'new account' $450 credit (for Individual Free Trial)
-- Create a new Aliyun Project
-- Set up a billing alert for that project with a notification via pub/sub
-- (Optional) Create a non-owner IAM admin user to reduce the attack surface
+- Set up a `Monthly Spending Alert` in Billing
+- (Optional) Create a non-owner RAM admin user to reduce the attack surface
 
 ## Code & Code Editor
 
@@ -20,26 +19,27 @@ You can use the editor and language of your choice.  I am using VSCode and Pytho
 - Install VSCode - do not need to install Git
     - install these extentions for VSCode: 
         - Alibaba Cloud Management Extension
-        - TensorFlowSnippets
         - Python (or Node...)
-        - VS Code Jupyter Notebook viewer
+        - If using ML DNNs, then install TensorFlowSnippets
+        - If using Notebooks, then install VS Code Jupyter Notebook viewer
 
-## Aliyun SDK 
+## Aliyun cli 
  
- You can use the included console in Aliyun to run GCP SDK (gcloud) commands or you can download and install the Aliyun SDK locally
+ You can use the included console in the Alibaba Cloud WebUI to start a cloud-shell instances.  Here you can run Aliyun cli commands.  Alternatively, you can download and install the Aliyun cli locally
 
  - Download,unzip, install and authenticate to Aliyun SDK
- - GGG - Verify with `Aliyun auth list` or `Aliyun config list`
+ - Verify with `aliyun version` or `Aliyun config list`
 
  ## Enable APIs
 
  You will be using a number of Aliyun services.  Some services are enabled by default, however, for other services you will need explicitly enable API or service.  
 
+Use the Alibaba Cloud API Explorer
+    - Here -- https://api.aliyun.com/
+
 TIP: Verify that you using the intended Aliyun Project before you enable a service:
-
-Aliyun Services enabled by default:
- - ????  
-
- Must be explicitly enabled:
- - Others...
+ - Aliyun Services enabled by default:
+    - ????  
+ - Must be explicitly enabled:
+    - Others...
  
