@@ -11,6 +11,8 @@ Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun
 
 ## Other
 
+![GT-Scan2 for Genomics on Alibaba Cloud](https://github.com/lynnlangit/learning-alibaba-cloud/blob/master/images/gt-scan-alibaba.png)
+
 - Case Study -> CSIRO Bioinformatics Serverless Genomics on Alibaba Cloud - [link](https://www.alibabacloud.com/blog/gt-scan2-bringing-bioinformatics-to-alibaba-cloud_593841)
 - GT-Scan2 genomic search tool, live demo - [link](https://gt-scan.csiro.au/gt-scan2/example)
 - Alibaba Cloud Architecture Icons - [link](https://www.alibabacloud.com/help/doc-detail/67830.htm)
