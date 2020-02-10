@@ -1,7 +1,7 @@
-### VPC Commands
+### Alibaba Cloud Server Load Balancer Commands
 
-To list VPCs  
-`aliyun compute networks list`
+To list Load Balancers 
+`aliyun compute networks list...`
 
 To create a VPC  
 `aliyun compute networks create [network_name] --subnet-mode=custom`  
@@ -16,7 +16,7 @@ To list the information about a VPC
 To create a subnet of a network  
 `aliyun compute networks subnets create [subnet_name] --network=[network_name] --range=[ip-addr/port] --zone=[zone]`  
 
-To add a running GCE instance to a VPC  
+To add a running ECS instance to a VPC  
 Overview:  
     1. stop the original instance  
     `aliyun compute instances stop [instance_name] --zone=[zone]`
