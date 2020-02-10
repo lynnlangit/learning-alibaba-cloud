@@ -28,7 +28,7 @@ You can use the editor and language of your choice.  I am using VSCode and Pytho
  You can use the included console in the Alibaba Cloud WebUI to start a cloud-shell instances.  Here you can run Aliyun cli commands.  Alternatively, you can download and install the Aliyun cli locally
 
  - Download,unzip, install and authenticate to Aliyun SDK
- - Verify with `aliyun version` or `Aliyun config list`
+ - Verify with `aliyun version` or `aliyun configure`
 
  ## Enable APIs
 

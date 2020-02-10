@@ -16,7 +16,7 @@ These identities work in slightly different ways than the other cloud service pr
  You can use the included console in Aliyun to run GCP SDK (gcloud) commands or you can download and install the Aliyun SDK locally
 
  - Download,unzip, install and authenticate to Aliyun SDK
- - GGG - Verify with `Aliyun auth list` or `Aliyun config list`
+ - Verify with `aliyun version` or `aliyun configure`
 
  ## Enable APIs
 
