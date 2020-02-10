@@ -16,7 +16,8 @@ These identities work in slightly different ways than the other cloud service pr
  You can use the included console in Aliyun to run GCP SDK (gcloud) commands or you can download and install the Aliyun SDK locally
 
  - Download,unzip, install and authenticate to Aliyun SDK
- - Verify with `aliyun version` or `aliyun configure`
+ - Verify current RAM-user with  `aliyun configure list`
+ - Can add RAM-user profiles via `aliyun configure ...` , then use with `--profile {profileName}`
 
  ## Enable APIs
 
