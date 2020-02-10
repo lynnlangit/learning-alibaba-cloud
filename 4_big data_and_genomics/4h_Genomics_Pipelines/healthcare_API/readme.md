@@ -1,1 +1,0 @@
-Google Healthcare API
