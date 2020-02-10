@@ -25,18 +25,6 @@ Alibaba’s pricing model includes
 - For a non-production environment that may only need to be up during normal business hours (say, 9 hours per day, weekdays only), one can easily see that it may be more cost-effective to go with the PAYG pricing, and use the ParkMyCloud service to shut the instances down during off-hours, saving 73%.
 
 
-### Compare Alibaba to AWS Services
+### Compare Alibaba Cloud to AWS Services
 
-Key Services
-
-- VM's - Alibaba Cloud ECS (Elastic Compute Service) -> AWS EC2
-
-The major differences between Alibaba Cloud ECS and AWS EC2 are that Alibaba Cloud provides a wider range of instance families and that AWS offers more regions globally.
-
-
-----
-
-Key Links
-- Main - us.alibabacloud.com
-- GitHub - github.com/aliyun
-- GitHub Docs - github.com/AlibabaCloudDocs
+See this GitHub Gist comparing services by type across these two vendors - [link](https://gist.github.com/lynnlangit/d820bc54f6e97839e9f6a6ea66863e2d)
