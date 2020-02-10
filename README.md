@@ -2,7 +2,7 @@
 
 ![Alibaba Cloud Service Types](https://github.com/lynnlangit/learning-alibaba-cloud/blob/master/images/services.png)
 
-Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun or Ali Cloud)provided cloud services only in China. Currently Alibaba has been expanding Aliyun continuously by setting up new data centers and forming partnerships.  As of Feb 2020, Aliyun operates in 42 availability zones and 18 data center regions in the world. 
+Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun or Ali Cloud)provided cloud services only in China. In 2020, Aliyun operates in 20+ data center regions around the world. 
 
 Companion Repo for LinkedIn Learning Course
 
