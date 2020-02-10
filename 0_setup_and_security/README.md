@@ -27,10 +27,10 @@ There are multiple clients:
 
 ## Alibaba Cloud and AWS both offer billing and security services
 
-Alibaba Cloud’s storage services 
+Alibaba Cloud’s billing and security services 
  - Billing -> AWS Billing
  - Pay-as-you-go -> AWS on-demand
- - Reserved -> AWS reserved
+ - Subscription -> AWS reserved
  - Resource Access Management (RAM) -> AWS IAM (users, roles, policies)
 
  ### Storage
