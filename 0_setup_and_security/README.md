@@ -40,7 +40,3 @@ Alibaba Cloud offers three tiers of storage for its OSS service:
 - Infrequent Access
 - Archive
 
-## Other
-
-- Case Study -> Serverless Genomics on Alibaba Cloud - [link](https://www.alibabacloud.com/blog/gt-scan2-bringing-bioinformatics-to-alibaba-cloud_593841)
-- Alibaba Cloud Architecture Icons - [link](https://www.alibabacloud.com/help/doc-detail/67830.htm)
