@@ -3,10 +3,10 @@
 Use EBS to create fully managed NFS file servers on Alibaba Cloud for use with applications running on VM instances or Kubernetes clusters.
 
 To create an instance  
-`aliyun filestore instances create nfs-server --project=[PROJECT_ID] --zone=us-central1-c --tier=STANDARD \ `        `     --file-share=name="vol1",capacity=1TB --network=name="default",reserved-ip-range="10.0.0.0/29"`
+`aliyun ebs instances create nfs-server --project=[PROJECT_ID] --zone=us-central1-c --tier=STANDARD \ `        `     --file-share=name="vol1",capacity=1TB --network=name="default",reserved-ip-range="10.0.0.0/29"`
 
 To get info about your instance  
-`aliyun filestore instances describe nfs-server --project=[PROJECT_ID] --zone=us-central1-c`
+`aliyun ebs instances describe nfs-server --project=[PROJECT_ID] --zone=us-central1-c`
 
 To mount an instance with a VM, ssh into that GCE VM  
 `sudo apt-get -y update`

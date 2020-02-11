@@ -33,6 +33,6 @@ To trigger a function based on file uploaded into a bucket
     - c. deploy the function  
       `aliyun functions deploy hello_gcs_generic --runtime python37 --trigger-resource [bucket_name] --trigger-event google.storage.object.finalize --region=us-east1`  
 2. upload a file to the bucket  
-`gsutil cp main.py gs://[bucket_name]`  
+`gsutil cp main.py oss://[bucket_name]`  
 3. check logs to see if the function fired  
 `aliyun logging read "resource.type=cloud_function" --limit=1`  
