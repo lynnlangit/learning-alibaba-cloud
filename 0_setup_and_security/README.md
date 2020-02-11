@@ -27,10 +27,11 @@ These identities work in slightly different ways than the other cloud service pr
 ## Client Options
 
 There are multiple clients:
-- While learning, clikc on service configurations in Alibaba Cloud console
+- While learning, click on service configurations in Alibaba Cloud console
 - Use code with the Alibaba Cloud API -> Explorer at https://api.aliyun.com/
 - Use scripts with the Aliaba Cloud cli  
 - Run scripts with the integrated Cloud Shell for the Alibaba Cloud cli
+- Download a local aliyun cli client from -> http://github.com/aliyun/aliyun-cli
 - Extension for VSCode
 
 ## Alibaba Cloud and AWS both offer billing and security services
