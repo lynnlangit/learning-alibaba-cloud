@@ -19,15 +19,4 @@ These identities work in slightly different ways than the other cloud service pr
  - Verify current RAM-user with  `aliyun configure list`
  - Can add RAM-user profiles via `aliyun configure ...` , then use with `--profile {profileName}`
 
- ## Enable APIs
-
- You will be using a number of Aliyun services.  Some services are enabled by default, however, for other services you will need explicitly enable API or service.  
-
-TIP: Verify that you using the intended Aliyun Project before you enable a service:
-
-Aliyun Services enabled by default:
- - ????  
-
- Must be explicitly enabled:
- - Others...
  

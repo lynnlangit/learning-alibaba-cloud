@@ -28,14 +28,15 @@ Alibaba Cloud allows subscribers to choose from 16 free trial products and over 
 
 ### Pricing
 
-Alibaba’s pricing model includes
-- Pay-As-You-Go (PAYG) offering, with per-second billing
-- IMPORTANT: in order to save money on stopped instances, you must specifically enable a “No fees for stopped instances” feature 
-    - this is a global one-time setting for instances operating under all Pay-As-You-Go VPC instances, and you can set it and forget it. 
-    - this feature is NOT available for any instances with local disks (this and other aspects of the description lead me to believe that Alibaba instances tend to be “sticky” to the underlying hardware instance). 
-- Alibaba Cloud system/data disks continue to accrue costs even when an instance is stopped.
+Alibaba’s pricing model includes the following options:
+- **Pay-As-You-Go (PAYG)** billing, with per-second billing
+    - IMPORTANT: in order to save money on stopped instances, you must specifically enable a “No fees for stopped instances” feature 
+    - there is a global one-time setting for instances operating under all PAYG VPC instances
+    - this feature is NOT available for any instances with local disks 
+    - system/data disks continue to accrue costs even when an instance is stopped
+    - For a non-production environment use PAYG pricing with the ParkMyCloud service to shut the instances down during off-hours, saving 70%+
 
-- Alibaba also has a one-month prepaid Subscription model
-- the monthly subscription discount reflects a substantial 30-60% discount compared to the cost of a PAYG instance that is left up for a full month.
-- For a non-production environment that may only need to be up during normal business hours (say, 9 hours per day, weekdays only), one can easily see that it may be more cost-effective to go with the PAYG pricing, and use the ParkMyCloud service to shut the instances down during off-hours, saving 73%.
+- Prepaid **Subscription** model - monthly
+    - the monthly subscription discount reflects a substantial 30-60% discount compared to the cost of a PAYG instance that is left up for a full month.
+  
  

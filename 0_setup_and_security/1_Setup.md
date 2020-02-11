@@ -31,16 +31,12 @@ You can use the editor and language of your choice.  I am using VSCode and Pytho
  - Verify with `aliyun version` or `aliyun configure`
  - How to configure the cli - [link](https://www.alibabacloud.com/help/doc-detail/90766.htm)
 
- ## Enable APIs
+ ## Enable and Use APIs
 
  You will be using a number of Aliyun services.  Some services are enabled by default, however, for other services you will need explicitly enable API or service.  
 
-Use the Alibaba Cloud API Explorer
+- Explore APIs using the Alibaba Cloud API Explorer
     - Here -- https://api.aliyun.com/
 
-TIP: Verify that you using the intended Aliyun Project before you enable a service:
- - Aliyun Services enabled by default:
-    - ????  
- - Must be explicitly enabled:
-    - Others...
+
  
