@@ -4,6 +4,14 @@
 
 This section has information about these topics. See the included Markdown files for more detailed information.
 
+Alibaba Cloud and AWS both offer setup, security and billing services.
+
+Alibaba Cloud’s storage services 
+ - Free Trial account -> AWS Free Tier
+ - Resource Access Management(RAM) -> AWS IAM
+ - AccessKeyId, AccessKeySecret -> AWS AccessKey, PrivateKey
+ - Billing Console, includes Alerts -> AWS Billing Console, includes Alerts
+
 ## Security Concepts
 
 - **RAM** - Resource Access Management
@@ -32,13 +40,6 @@ Alibaba Cloud’s billing and security services
  - Pay-as-you-go -> AWS on-demand
  - Subscription -> AWS reserved
  - Resource Access Management (RAM) -> AWS IAM (users, roles, policies)
-
- ### Storage
-
-Alibaba Cloud offers three tiers of storage for its OSS service: 
-- Standard
-- Infrequent Access
-- Archive
 
 ### Links
 
