@@ -13,3 +13,7 @@ Alibaba Cloud offers three tiers of storage for its OSS service:
 - Standard
 - Infrequent Access
 - Archive
+
+## Links
+ 
+- Learning path for OSS - [link](https://www.alibabacloud.com/getting-started/learningpath/oss)

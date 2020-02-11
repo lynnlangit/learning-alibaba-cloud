@@ -29,6 +29,7 @@ You can use the editor and language of your choice.  I am using VSCode and Pytho
 
  - Download,unzip, install and authenticate to Aliyun SDK
  - Verify with `aliyun version` or `aliyun configure`
+ - How to configure the cli - [link](https://www.alibabacloud.com/help/doc-detail/90766.htm)
 
  ## Enable APIs
 
