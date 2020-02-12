@@ -1,13 +1,9 @@
-# Networking
+# Networking and DevOps
 
-Alibaba Cloud and AWS both offer networking storage services.
+Alibaba Cloud and AWS both offer Networking and DevOps services.
 
 Alibaba Cloud’s Networking services 
  - Virtual Private Cloud (VPC)) -> AWS VPC
  - Alibaba Cloud CDN (CDN) -> AWS CDN
+ - Resource Orchestration Service (ROS) -> AWS CloudFormation 
 
-
-
-Alibaba Cloud offers two types of pricing for it's networking services: 
-- Pay-as-you-go
-- Subscription
