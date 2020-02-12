@@ -7,10 +7,14 @@ Alibaba Cloud’s compute services
  - Elastic Block Storage (EBS) -> AWS EBS
  - Network Attached Storage (NAS) -> AWS EFS
 
+### Pricing
 
 Alibaba Cloud offers two types of pricing for it's compute services: 
 - Pay-as-you-go
 - Subscription
+
+### Connecting
+- to ECS - use VPC password & if Linux OS, then user 'root' and password 'yourPassword'
 
 ### Links
 - What is IaaS? - [link](alibabacloud.com/knowledge/what-is-iaas)
