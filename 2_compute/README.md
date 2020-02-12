@@ -13,5 +13,7 @@ Alibaba Cloud offers two types of pricing for it's compute services:
 - Subscription
 
 ### Links
+- What is IaaS? - [link](alibabacloud.com/knowledge/what-is-iaas)
+- Differences between VMs and Containers - [link](alibabacloud.com/knowledge/difference-between-container-and-virtual-machine)
 - Launch a Jupyter container instance via `launch in Dev Box` - [link](https://www.alibabacloud.com/help/doc-detail/52687.htm)
 - Comparing Alibaba Cloud Function Compute to AWS Lambda - [link](https://cloudonaut.io/comparing-serverless-offerings-from-alibaba-cloud-and-aws/)
