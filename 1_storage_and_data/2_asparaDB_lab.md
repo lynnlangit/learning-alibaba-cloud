@@ -1,23 +1,23 @@
-### Cloud SQL commands
+### AsparaDB RDS commands
 
 To create an instance  
-`aliyun sql instances create [instance_name] --tier=db-f1-micro --region=us-west2`    
+`aliyun rds CreateDBInstances [instance_name] --tier=db-f1-micro --region=us-west2`    
 
 To create a database  
-`aliyun sql database create [db_name] --instance=[instance_name]` 
+`aliyun rds CreateDatabase [db_name] --instance=[instance_name]` 
 
 To list the databases  
-`aliyun sql databases list [db_name]`  
+`aliyun rds DescribeDatabases  [db_name]`  
 
 To create a database table  
 1. Connect to instance  
-`aliyun sql connect [instance_name]`
+`aliyun rds connect [instance_name]`
 2. Use the database created  
 `use [db_name]` 
 3. Create the table  
 `CREATE TABLE CONTACTS(name varchar(20), lastname varchar(20), phone varchar(20));`  
 
-To list database tables (in mysql console)  
+To list database tables (in myRds console)  
 `SHOW TABLES;`  
 
 To rename a table
@@ -33,7 +33,7 @@ To list value in a table row
 `SELECT * FROM contacts WHERE name='John';` 
 
 To delete a database  
-`aliyun sql databases delete test-db --instance=[instance_name]`
+`aliyun rds DeleteDatabases test-db --instance=[instance_name]`
 
 To delete an instance  
-`aliyun sql instances delete [instance_name]`
+`aliyun rds DeleteDBInstances [instance_name]`
