@@ -6,8 +6,8 @@ To list instances
 To create an instance  
 `aliyun ecs CreateInstance [instance_name] --zone=[zone]`  
 
-To desribe your instance  
-`aliyun ecs DescribeInstances --output cols=InstanceId,InstanceName`
+To desribe your instances  
+`aliyun ecs DescribeInstances`
 
 -----
 
