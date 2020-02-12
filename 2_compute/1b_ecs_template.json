@@ -1,0 +1,124 @@
+{
+    "ROSTemplateFormatVersion": "2015-09-01",
+    "Description": "A simple ECS instance with a security group and a VSwitch in a VPC. You need to specify an image ID.",
+    "Parameters": {
+      "ImageId": {
+        "Type": "String",
+        "Description": "ImageId is the unique identifier of the image that is required by the ECS instance.",
+        "Label": "ECS Image ID",
+        "Default": "centos_7",
+      },
+      "InstanceType": {
+        "Type": "String",
+        "Description": "Type of the ECS instance",
+        "Label": "ECS Instance Type",
+        "Default": "ecs.c5.large",
+        "AllowedValues": [
+          "ecs.c5.large",
+          "ecs.g5.large",
+          "ecs.c5.xlarge",
+          "ecs.g5.xlarge"
+        ]
+      },
+      "Password": {
+        "Type": "String",
+        "Description": "Login password of the ECS instance",
+        "ConstraintDescription": "The password must be 8 to 30 characters in length and consist of letters, numbers, and special characters.",
+        "Label": "ECS Instance Password",
+        "MaxLength": "30",
+        "MinLength": "8",
+        "AllowedPattern": "[a-zA-Z0-9-\\(\\)\\`\\~\\! @\\#\\$%\\^&\\*-+=\\|\\{\\}\\[\\]\\:\\;\\‘\\,\\. \\? \\/]*",
+        "NoEcho": true,
+        "Confirm": true
+      }
+    },
+    "Resources": {
+      "WebServer": {
+        "Type": "ALIYUN::ECS::Instance",
+        "Properties": {
+          "ImageId": {
+            "Ref": "ImageId"
+          },
+          "InstanceType": {
+            "Ref": "InstanceType"
+          },
+          "SecurityGroupId": {
+            "Ref": "SecurityGroup"
+          },
+          "PrivateIpAddress": "192.168.0.1",
+          "VSwitchId": {
+            "Ref": "vswitch"
+          },
+          "VpcId": {
+            "Ref": "vpc"
+          },
+          "Password": {
+            "Ref": "Password"
+          }
+        }
+      },
+      "vswitch": {
+        "Type": "ALIYUN::ECS::VSwitch",
+        "Properties": {
+          "VpcId": {
+            "Ref": "vpc"
+          },
+          "ZoneId": {
+            "Fn::Select": [
+              "0",
+              {
+                "Fn::GetAZs": {
+                  "Ref": "ALIYUN::Region"
+                }
+              }
+            ]
+          },
+          "CidrBlock": "192.168.0.0/16",
+        }
+      },
+      "SecurityGroup": {
+        "Type": "ALIYUN::ECS::SecurityGroup",
+        "Properties": {
+          "VpcId": {
+            "Ref": "vpc"
+          }
+        }
+      },
+      "vpc": {
+        "Type": "ALIYUN::ECS::VPC",
+        "Properties": {
+          "CidrBlock": "192.168.0.0/16",
+          "VpcName": "simple_ecs_vpc"
+        }
+      }
+    },
+    "Outputs": {
+      "InstanceId": {
+        "Description": "Instance ID of the created ECS instance",
+        "Value": {
+          "Fn::GetAtt": [
+            "WebServer",
+            "InstanceId"
+          ]
+        }
+      },
+      "PublicIp": {
+        "Description": "Public IP address of the created ECS instance",
+        "Value": {
+          "Fn::GetAtt": [
+            "WebServer",
+            "PublicIp"
+          ]
+        }
+      },
+      "SecurityGroupId": {
+        "Description": "ID of the security group.",
+        "Value": {
+          "Fn::GetAtt": [
+            "SecurityGroup",
+            "SecurityGroupId"
+          ]
+        }
+      }
+    }
+  }
