@@ -1,13 +1,19 @@
-# Storage
+# Storage and Database Services
 
-Alibaba Cloud and AWS both offer block, object and file storage services.
+Alibaba Cloud and AWS both offer object file storage and managed database services.
 
 Alibaba Cloud’s storage services 
  - Object Storage Service (OSS) -> AWS S3
  - Elastic Block Storage (EBS) -> AWS EBS
  - Network Attached Storage (NAS) -> AWS EFS
  - TableStore -> AWS DynamoDB
- - AsparaDB for RDS -> AWS RDS Aurora/MySQL
+ - ApsaraDB services -> AWS PaaS SQL or NoSQL services
+    - Relational Database Service -> AWS RDS Aurora
+    - ApsaraDB for Redis -> AWS Elasticache for Redis
+    - ApsaraDB for MongoDB -> AWS DocumentDB
+    - AnalyticDB for PostgreSQL -> AWS Redshift
+
+## About OSS Storage
 
 Alibaba Cloud offers three tiers of storage for its OSS service: 
 - Standard
