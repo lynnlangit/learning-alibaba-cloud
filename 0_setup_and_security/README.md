@@ -22,6 +22,8 @@ There are multiple clients:
 - Download a local aliyun cli client from -> http://github.com/aliyun/aliyun-cli
 - Extension for VSCode
 
+![Alibaba API explorer example](https://github.com/lynnlangit/learning-alibaba-cloud/blob/master/images/alibaba-api.png)
+
 
 ### Links
 
