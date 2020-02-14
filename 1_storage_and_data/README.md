@@ -12,6 +12,7 @@ Alibaba Cloud’s storage services
     - ApsaraDB for Redis -> AWS Elasticache for Redis
     - ApsaraDB for MongoDB -> AWS DocumentDB
     - AnalyticDB for PostgreSQL -> AWS Redshift
+ - Data Lake Analytics -> AWS Athena
 
 ## About OSS Storage
 
