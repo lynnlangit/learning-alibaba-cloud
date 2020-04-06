@@ -8,6 +8,7 @@ Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun
 - Main (for US) - us.alibabacloud.com
 - GitHub - github.com/aliyun
 - GitHub Docs - github.com/AlibabaCloudDocs
+- LinkedIn Learning Course - https://www.linkedin.com/learning/learning-alibaba-cloud
 
 ## Other
 
