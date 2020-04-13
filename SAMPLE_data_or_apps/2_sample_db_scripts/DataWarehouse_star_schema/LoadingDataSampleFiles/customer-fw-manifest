@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-000"},
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-001"},
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-002"},
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-003"},
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-004"},    
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-005"},
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-006"}, 
+    {"url":"oss://demo-load-redshift-lynnlangit/load/customer-fw.tbl-007"}
+ ]
+}
