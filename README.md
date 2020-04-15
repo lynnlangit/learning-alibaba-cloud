@@ -20,4 +20,4 @@ Alibaba Cloud was launched in 2009. Initially, Alibaba Cloud (also called Aliyun
 
 ### Compare Alibaba Cloud Services to AWS Services
 
-See this GitHub Gist comparing services by type across these two vendors - [link](https://gist.github.com/lynnlangit/d820bc54f6e97839e9f6a6ea66863e2d)
+See this GitHub Gist comparing services by type across these two vendors (Alibaba Cloud & AWS) - [link](https://gist.github.com/lynnlangit/d820bc54f6e97839e9f6a6ea66863e2d)
