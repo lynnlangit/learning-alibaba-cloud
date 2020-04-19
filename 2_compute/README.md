@@ -8,6 +8,7 @@ Alibaba Cloud’s compute services
  - Network Attached Storage (NAS) -> AWS EFS
  - Batch Compute Service (BCS) --> AWS Batch
  - Function Compute (FC) --> AWS Lambda
+ - Elastic Container Instance --> GCP CloudRun
 
 ### Pricing
 
